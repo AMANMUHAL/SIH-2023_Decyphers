@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurveda</title>
+    <link rel="shortcut icon" href="https://cred.club/assets/icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- SECTION 1 -->
+    <section class="section-1">
+        <div class="section-1-header">
+            <div class="section-1-header-logo">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUUFBcVFBQYGBQYFxcbGxsaFxsXFxsaGxoYGxsaGxobICwkGx0pIBcaJTYlKS4wMzMzGiI5PjkyPSwyMzABCwsLEA4QHhISHjImJCozMjA4Njg0MzI0Ozg4MzI4ODQyMjs0NDIyNTI0PDAyMjIyMjUyNDsyMjI7MjIyMjIyMv/AABEIAKcBLgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAQIDBgUEB//EAD8QAAEEAQIDBgQCCAUDBQAAAAEAAhEhAxIxBEFRBQYTImFxMoGRoULBFFJicpKx0fEzgqKywiTS8BUjQ1Ph/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAMEBQIBBv/EADARAAIBAgQEBQMDBQAAAAAAAAABAgMRBBIhMSJBUWEFEzJxsYGRoRRC8BUzYsHR/9oADAMBAAIRAxEAPwD7E5wg3yVGNpBFIawg7K17wQQDaAMpkVarwiDdVzTxtIMmgnlOoVaAWe4i99rUsNC6vmli8szUpZBJkWgFmEmrVrHAAWo43ACDRUHNJJIFICJaZNHdeh7hBvkUmvHVUtYQQSEAY2kESFblMirQ9wIgG1DG0gyaCAMNEzXujPcRe+1p5TqFWjF5ZmkA8JgXV81DKJNWjINRkWFPG4AQaKAkxwgWqC0zsd03tJJIFK12ZrRbgPcwlwN5EG+RVOMEESF5P0/C0icrBY3e3+q9H/qGJwhuVhJ6PafzXHmR6o8zLqejKZFWoYaJmvdRw0Z5dVPL5trXZ6LPcRftalhMC6vmli8szSjkGoyLCAMok0rmOEC1HG4AQaKqe0kkgUgEWmdjuvQ9wg3yKWsdVS1hBBIoIAxAgiQrcpkVfsh7gRAMlQxt0mTQQBgqZr3pGe4i/a08vm2tGLy70gHhMC6vmoZRJMIyDUZFhWMcAIJgoCTHCBfJefSZ2O6b2EkkCldrHVAN7hBvkvNoPQ/RSawggkUFf4g6oCJyg11UGsIMnYJDCRfS1I5A6uqAbnBwgbqLBpsptZpsoc7VQ+6AH+bbkhh00Um+Tfn09P7oc3VY9rQA5hcZGyk14Ag7hIP00UjjLr6oBHETasOUGhzS8YCoNKHgkX0v6IAawtMnYKbnBwgbpHIHUOaGs02UAmDTZTf5tuSHHVQ5dVye2O2mcK2D5shHlaD9z0C4qVI01mk7I8lJRV2dN+duNpL3BoFkkwPqsv2n3vYCRhZr/adLW/Ibn7Lgn9J4/JsXR8sbR/IfclaTs3urixwc05HdNmD5bu+f0Wd59bEO1JWXVlfPOp6VZdTOv7Z4vOdLHPj9XG0gD5tv6lSx92eLyW5ker3Cf5kr6EzhwBDAGt5ACAPkFZ4w2grpeH5takmz39Pf1NswDe5+Y/jxfV3/AGpZe53EATOM+zj+bVvfCIvpf0Ujk1UOa6/ptHv9z39PA+aO7K4vDbWZG+rDP+wq/g+8/E4jBcHgbh4v6iDPvK+hhmmz9l5eN7PxcQIfjaT1Ih3ycLC4eAnDWlNr3OfIcfTI5PA96sWWGv8A/bf+0ZYf83L5wtBjeGi+d1dLFdrd0HM82F2ofqu+L5O2PzhczsztnLwztDgSwGHMdILf3Z+E+my8ji6lKWWuvqjxVZQdpr6n0dzS4yNlY3IAIO4Xi7M7Tx5WB2MyOY5tPQjkV6jj1X1WlGSkrrVFlNNXQvCO6sOQGhzS8YbQVAYiL6Wuj0GsLTJ2Ck92oQN0HJqoc0mt02UA2DTvzQ8atuSCdW3LqgHTvz6IAY7SIO6TmFxkbIc3VY9rTGTTR5ICTcgFHcKvwjug4ib6qfjDa+iAZyA0Nyq/BKBiIvop+OOhQC8aajet0vD03MwpHCBd1aiMhNHmgHq1Vt90adN78uiHM02Eg7VR+yAPj9I+e/8AZGrRW/Poh3k259fT+6bW6rPtSAWjVcx90/F01GyHP00EDGHWeaAPBm53vZLxpqN636peMRUClM4QLur+iAXh6bmYRq1Vt90hk1Ueao43O3Ax2Rxpov8AoPU7fNeNpK7PG7HP7f7XbwrKg5HU1v5n0H3WU7G7IycZkOTITomXOO7j0b/5AUeC4fJx/EFzjDd3EbNbyaPXkPmV9BxY24mtYwANAgDoAsyMHi55pelbLqV0nVld7FeDh24WeHjaGtioqJ/mfVYvhO8mfEND2jIQT5nOIdDZ1AnnEG/5rdgarPtSwHbXBtwcQ5hcfDyS4Ei269QdB2MdPbopcZmppShpbTt9j2tmik46Gl4fvXwx0jUWmB8TXAA9CYj5rr4i19tc13MwQYmxsV8uyYC1rXfE1roJFtImWkH1sQbFTupcHxbuGy6mHY2OTmm4PoRB+irU/EZJ2qLTsRxxLT4kfTs3GsbAe5rNVDU4D6TurBji5mFhO9eLxHYczXSzKwNaDuDMkH+L6gq/vD2k7Fix8K18uGNoe4TJEQG/Pf2jqrLxmVyutFa3e5K61r3WxpeO7awYx53gTtHmJitmricZ3vDSPAZrES4mWxewH5+qyLMJIa0DzPJj2FT7TP8ACvS4NZrJI1EgNaeTWxDnDkab5fea3pTx9WfpskQSxEntoa7uvxWXO7M/I4xLA1v4WmCSAPYtXs7b7Fx5xDhDwPK8bj0I/EFHu3wfgYGmy7J53SIIJApdgN1Wfalp0qeaklU1vvctRheNpHzLG7NwWbaHDcfge38x68l9B7N7SZmxh7NtiJsEbgrz9udltzs0GnNtruYJ5H9k8x/RYvsbj3cJnLHghpOl46ftD239QqUXLB1LN3g/wQK9KVnsz6R4POfXZLxpqN636pDP0iOvopnEBd1a1i2R8PTczCNeutvumH6qPNBbpsfdAEab3n5JRr9I+aGnVR5dEOOjbn1QD1aa359EtGrzTE/2Ta3VZ9qQX6aHJALxdNRt6p+Dzn12TGIG+qh4x2gdEA/Fmo3rdP8AR/X7JnEBfRR8c9AgEMpNdVNzABI3Ck5gjZUscSQCaQEmvLjB2TeNNhPI0ASKKjiOo3aAbPNvyQ92mgll8sRUp4hqEm0A2tDhJ3UXPIMDYIyOIMCgpsYCASLQAMQNqtuUmjzSc8zuriwAEgICLmACRuFie+3aJe5uAGmw5wHNx+EfIX/mC2Ds0SSaAJPsBJ/ksH2DjPE8YcjhQJyH6+QfIkfwqhjZNqNJbt/ggrttKK5mu7D7O/R8LW/jdbj+0Rt7Db5Lps82/JLEdW9oy+WIpXIQUIqK2RNFKKsge7TQ91VxXBszMLXiQQRPMcpHQq/ENQk3ajkcQYFBdNJqzDVzD9q9hZcEDCX5GukO0sGoAQRMW6fpSo4fsjiMukfo4AFBz2+HW96dJj0AX0EAQCRaxD+O4viMuVuPKGljiG4wQ1xAcRRiyIuTzWVXw1OElvryRWnSinz9iHa/Z5ws4dmvUPFJiPK0nTIbMmPcndentru3k1uyMDcuoknUSHieXxBpA22C8vawzhmAcRGoZoBluogaZnSI325r3ccOOc9xOQYsYLvMXtDA0bGYkyOq5cYPMnF20t1WhzaLurPl8HJHCcQ4iMT2PJ0kNxgNLYiNUbRyJIWm7O7u48B8SQ58QJaABsZAu63S7rdpPzYXOf8AE1+nVAEggG4qRP8AJdzEdW9q1hsPTyqe99Vclp0o2vuNnm35JPdpobboy+WIpSxCRJsq8Tg1ocJO6x/fbs0GMzRbYa/1GzXH2NfMdFrcjiDAoJcRwzcmNzHCntIPzG6gxFFVYOLOKkc0Wjg9zOOGXCcbvixwN92n4fpBHyC7zchNHYr5/wB3MxwcWGOMai7G73mv9QA+a+iuYBJAtRYGo5UknutDihK8deQnMDRI3Cix2owdkmPJMHZTyCBIoq4TCeNO3NDBq35IxHVvaWXyxFIAe7TQ2UmtDhJ3RjGoSbKg9xBgUEAOyEGBsFZ4Q3TYwEAkWqdZndANuQkwdirfBah7AASBao8Q9UANcZF81fkEA0m9wg3yVGNpBFIB4TJu1PMIFVfKk8pkVarwiDdVzpASw3M3tvajmMGqpPPcRe+1qWEwLq+dIB4hIu1VkcQTaeYSatW43AAWgG1ogUvO0mRfMIIMmjv0Xoe4Qb5FAcjvVl0cLlI3cA3+Ihp+xK5PcLh4ZkeR8TtPyaJ/m4/RS76uIwNEfFkb9muK9ndNkcGyNy55/wBZH5BZ748WuyIN6vsjuZqFV7UlhuZv3tLDRuvekZ7iL32taBOLMYNVSsxCRdpYTAur50oZRJq0BHITJtZ/vR2ZgaP0hzTrBbTXaQ8mhJ5dSRcArTscABa5PbPBty4XtedLfi1RTdN6vb8ioMRDNBqyb5X6nE43izKY8nFZWsc7M3ExztOOyLmIbpBO43J5KB4PXmGDPxTy7VpI0vcJ3AlxAE8jB3CeDiBobiwsdm8PJqa950Ma40NLQRRNgOdZ5L293OCbk4g5cmZr8jDqIbMSQQCXQAQI2FCrWTCOdqO97Xu3buVErtLc1PZnBsxNDMYhon1k9T1K9WagIr2pSymRVqGGiZr3pbkYqKsi6lbRDw3M372vFw/aGPK57cbv8N2l3IT1HUbifQq/j8uljngToY50ewmJ5bLGdmZ3Y+Laxh0h+Rxf+0JeWt9gL93H0VetX8uUV1ZxOeVpG7xCRdql7jJtSyiTVq5jhAtWSQ+b952nFxbnNqSx494H/JpW/wAT9UGaMfQrEd+WRmYeuP8Ak539Vs+ynzw+MzZxN+ukLNwnDWqR73K9LSckezIIBhVYTJu6SxNgiQrcpkVa0iwRz0BFe1Iw3M372lgqZr3pGe4i/a0Asxg1VKzEJAlLCYF1fsq8okmBKAT3GTa9OkRskxwgXyXn0mdjugBjjIvmvToHQfRJ7hBvkvLoPQ/RATawg7K17wQQDaDlBrqoNYQZOwQBjaQZNBPKdQq03ODhA3UWDTZQDxeWZqUsgkyLTf5tuSGHTRQDxuAEGioOaSSQKTcwuMjZSa8AQdwgJNeOqpawggkJnETasOUGhzQGX7+uBw44P/yf8XL290T/ANLjPLzj/W5efvlw5/Ri79V7D9Zb/wAku5WXVwxbza930IDvzKzlw4x35orrSt9CfebjcmEsyMcNDiWOa4FzJiWmBY2Mx6bqHAd6Gh2jOw43GIdOrGQdiHDketj1V3e3B/0mSeRYR76gP5ErJdlRmb+jvIDrOF5/C7ctJ/Vd06qPEVp061k91dJ/BzObjOye59HedUFtiNxsp43ACDRWC7s9svwZPAyz4Zdpg7sdMfSaI+fVbpzC4yNldw9dVo3Wj5onhNSVxPYSSQKVXaWAZcT8eqC5pbPQ8vuvS3IAIO4UPDJvlup5RUk0zpq6sfPeHAYG4mtOXJjzeIBjB0BwAbDnESRIGw+a7HdLs94fkzPczU7U2GEOglwcZ00Iqp5rmPxhmR+HBAjK2X5LIf5tAY0CoBd5iDtPlpaPujia3h2uZq0lziS4QSfhoAmBQ5rJw0E6iT5X9tCrTjxLsdrG0tMmgpZfNtabnBwgbqLBpty1y2U8SIxvDq1DT/F5fzWD4LLq47G7q5v1OMV9Suv233rZJx4ma43cSQ2QeUWdt5C4eNh/SsBa2HOONxaCSGnVMXYGgB19VkYuvGpOOV3s0VKs1KStyZ9KxuAEGiqntJJIFJuYXGRsrG5ABB3C1y2YLv28HMwdMY+7nf0Wu7JxluHFI2xsn+ELDd6X+Jxb2jloYPevzcV9ExloaGjkAB9ICzcLxV6ku9ivS1nJlj3AiAZKhjbpMmgk1haZOwU3u1CButIsCy+ba0YvLvSGDTvzQ8atuSAjkGoyLCsY4AQTBUWO0iDuk5hcZGyAi5hJJAoq7WI3SbkAEHcKvwjugE1hBBIoK/xB1UXZARA3Kr8EoAGEi52tSOQOrql401G9bp+HpuZhADWabKHO1UPujVqrb7o06b35dEAN8u/Pp6f3Sc3VY9rR8fpHz3/snq01vz6IAD9NFI4y6+qejVe33R4umo2QD8YCoNKAwkX0tS8Gbne9kvGmo3rfqgPJ2vi8bDkxgW5jo/eAlv3AWT7icWG5XsP42hw927/Z32W48OLmYXzvtNh4TjNbR5dWto6tdOpv+4fRZ2M4Jwq9HZ+xXrcMlI1vezJPCZI/Y/3tXzjG8tcHNMOaQQehBkL6P29jGTg8hadQcwOBHMAh8/QL5sqXif8AdjJdP9kOJ9afY7nevGC/HnaIbmxtd8wBP2LVveB4icTHHdzGu/iAP5rDdqHVwPCu/Vc9v+4f8FqGZtPAjIDbeHBHuGV91ZwslGpJ8mkySm7Sk+yZZw+Y8RleW/4WN2n9943/AMra9z7Lq+KNrXG7rw3hccDcEm+ZcSux4XOfXZaFFtxTe71LEdVd8zj9q8EA5jj5g/IxjhsNJBmdMF234iRey9/BYixujVqAppLQ0gdDpo+4AUe0OJxtaHZHBjWuDpJ5iaA577BZvjO+DQf/AGcZd+07yj5NFn5kKGdSlRk3J2+TiUoQd2a5rdNlY7vV3hD5w4TWznDn+y09Op+S4vH9v8RmBa98NO7WDSPnzI9yvFw2IGXOrG2C6Nz0aP2j9rPJZ+J8Q8xZael+ZXqV8yyxLOFxho8V4lgMMafxuHL9wbuPy5rTdzuzy8v4l5lziQ0nmfxO/L6rK5HuyvAAswxjRsBMNa30v7yvqPBYBgxsxgSGtA6e/wB7+a58PpKc83JfIw8bu/JHoD9NFU8U8MY7I4w1rS4+wEq7RquYlZXvv2lDBgabdBd+6DQ+ZH2WtiKqpQcmWpzyxbOH3fxHNxbXOuHHI73Bkf6i1fRBiIvpazncvszRiOV1OyGq/ANvqZP0Wk8aajet+qhwNNxp3e71OKEcsbvmMv1UOaTW6bKfh6bmYRq1Vt91dJgcdVDl1QDp359ERpvefkiNfpHzQCc3VY9kxk00eSNWmt+fRGjV5pif7IBHETfVS8YbQeij4umo29U/B5z67IBDERfRS8cdCo+LNRvW6fgev2QDOEC7q1EZCaPNIZSa6qbmACRuEAnM02Eg7VR+yGPLjB2TeNNhAJ3k259fT+6bW6rPtSGebfkk86aCAbn6aCBjDrPNNrQ4Sd1FzyDA2CARzEVVKZwgXdX9ExiBtVtyE0eaAYyaqPNcPvX2T4uHUy345I6kfiH2n5eq7zmACRuFBjy4wdlHVpqpFxezOZxUlZmW7m9pDJjPD5DbQS39ph3b8p+h9Fl+2OAODM9hFAy31YfhP5e4K7nebst3DZRxOGmFwNfhd/2u/MjmF0nMx9pYJBDczP8ASTuD1aY3/oQsedN1I+VL1R27oqSi5LK91t3OT2bi8fgMuMW/E/W0enxfU+cLp9k5jl7OewWWsyM9ZALm/YhcDsri38FxBGRpA+F49Ds4dY39bWt7I4Dwsr3Y/Nw+Ya2xs1w5fukGj6R0XeF4rdUnFr4Z7S1t9mU9zM4ycMGz5mEtPsTqB+8fJdbtDtEYcbsjhTR8ydgPmYWSJd2dxZMHwMk/SZ+rSfofVe7vvmBwYywy175kGQRpJH81YhiHCjJPeKt/xkinlg1zRke0OOyZnl+Qz0H4WjoAvMhC+flJyd3qyg227sau4fC/IRjY0uMkhoHM7k/1K7XYndh+aH5D4eM2APjcPSfhHqfottwnA4+HbpxMDRz5k+pJslaGG8PnU1lovyWKdBy1eiOF2J3aGFzcmUh2QW1o+Fh6zzP2/mtMG6rPtSGebfkuf2t2vj4YeY2RIaLc4/kPUrZjGnh4aaItpRguiJ9q9pN4bGXOuKaObnGwAsJ2Zwj+N4klxJBOp7ujf1R06D/8VefNm47OBEuNNaPhY3mfQdTz+gW77I4BvDY9DbO7nRbndfboFRV8ZUv+xfkh1qy/xR72P0gNAAAoDoBQUziAu6tPwhuq25CaOxWsWiQfqo80Fumx903MDRI3Cix2owdkANOqjy6IcdG3Pqm8aduaGDVvyQA1uqz7Ugv00OST3aTA2UmtDhJ3QAMQN9VDxjtA6IdkIMDYKzwhugEcQF9FHxz0CTchJg7FW+C1ABYANlSxxJAJpJrjIs7q/IIBpARyNAEiio4jqN2lhMm7U81CqtARy+WIqVLENQk2lhuZvbe1HNRqqQDyOIMCgpsYCASLRiEi7VWRxBNoAc8zurnMABpNrRApedpMizuEA2OJIBNKzI0ASKKlkEAqrCZN2gI+GMgc1wlpEEHYgrEdpdm5eAyeNhJOOd94B/C4cx6+3NbzNQEUoMaHAhwkbQbo+6r16Cqro1syOcFL3M7ifw/aLNLvLmaPTU390/ib/wCUubjdxXZxII8TBO42HqP1T6Gl6O1+6xa7xOFdpcPNpmIP7LuXsfqq+A705MZ8Pi8ZJFExDo9WmnD1EfNUJcLXmcMuTWz9yF6Pi0fU6zeO4XjWaHOAJ5Ohrw7kWk0T7Ssl2z2fm4dvhvJdhD9TD+HVY/ykztsu/l7L4LipdicGuN+Qwfmw/kAqMnd3i8YIxZg9kRpcTBHTQ6W/dc14TqR1V+6fyjmaclqr90ZBe7sXhhlz42O+Euv1ABcR8wIVz+7/ABU/4R+RaR9io/8AoPFf/Q/6D+qzo0akZJ5W7diuoST1TPpWfMxgkua33cBXzXL4jvJwzJ1ZA88gwa/uK+6xuLu1xRNYo93MH5roYO52XfJkYwekuP5D7rV/VYiXop29/wCItebUe0SXaPfB7pGBmgfrGHO+Q2H3XN7O7Iz8U/XeknzZHSR8ptx9vstR2R2BwjXUPFcDZPmYD6x5Z9DJWgy0QBQjlS9jhKlZ5qzuuiPVSlPWbOf2d2Zj4Zulm5jU4/E4+vp6LqNYCASLRiEi1S9xk2tKEIwWWKsiwkkrIeszurnsABIFqQaI2XmY4yL5ro9JY3EmCZCnkECRRUsggGFXhMm7pAPEdW9pZfLEUnmoCK9kYbmb90A8QkSbKhkcQYBgIzGDVUrcYkCUANaCASLVOszuk9xk2vTpEbICL2AAkC1R4juqGOMi+a9OgdB9EAnuEGxsqMbSCKQ1hB2Vr3gggG0AZTIq1XhEG6rnSeNpBk0E8p1CrQCz3EXvtalhMC6vnSWLyzNSlkEmRaAWYSatWscABajjcAINFQc0kkgUgIkGTR36L0PcIN8ik146qlrCCCQgDG0gilblMirQ9wIgG1XjaWmTQQDw0TNe9Iz3EXvtaeXzbWjF5ZmpQDwmBdXzpeXjuCZlp+MPb6iY9jy+SvyDUZFhTxuAEGivGk1ZnjSe5l+L7m43XjyOYejvMB7bEfUrzN7I4/H/AIebUOUuJ+z2kD6rWuaSSQKVweOqqvBU73jdPsyN0Y7rT2Mk3P2mBBYx/wA2fk4KWPN2nP8AhYm+pj/vWlGMggkbK17gRANr1YZr97+48vuzODh+0H/FnxsHRjQ4/cfmvTg7Cabz5MmX0e4hk/uCvkZXWxtIMmgpZb2tdrDx53fu7nSguepB+MAAMADQIAaKHyGyswmBdXzpLF5ZmlHINRkWFOdhlEmrVzHAAWoscAINFVPYSSQKQCIM7HfovQ9wg3yKWsdVS1hBBIoIAxNgiQrcpkVaHuBEAyVDG3SZNBAGCpmvekZ7iL9rTy+ba0YvLvSAeEwLq/ZV5RJMCU8g1GRYVjHACCYKAkxwgXyXn0mdjv0TcwkkgUVdrHVAN7hBvkvLoPQ/RTawggkUFf4g6oCJyA11VbWEGTsE0ICT3BwgbqOMabKaEAP823JGM6aKEICL2lxkbKbXgCDuEIQFZxE2rTkBoc0IQFbWEGTsFN5DhA3QhARxjTZTf5tuSEIAYYo77qL2lxkbJoQEmvAEHcKBxHdJCAtdkBoc6VbGEGTsEIQE3u1CBuljGnfmhCAMg1bckMMUd90IQEXsLjI2VjXgCDuEIQFfhHdWOyA0NyhCArYwgydgpvdqEDdCEAsY0780ZBq25IQgDG7TR3UXsLjI2TQgJteAIO4VfhHdJCAtdkBoblVeCUIQH//Z" alt="Logo">
+            </div>
+            <div class="section-1-header-options">
+                <div><a href="#">Prakriti</a></div>
+                <div><a href="#">Resources</a></div>
+                <div><a href="#">Blog</a></div>
+                <div><a href="#">Contact Us</a></div>
+                
+            </div>
+        </div>
+        <div class="section-1-main">
+            <div class="section-1-main-1">
+                Adapting Ayurveda for the contemporary world.
+            </div>
+            <div class="section-1-main-2">
+                150+ Ayurvedic Texts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1000+ Formulations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  8+ Ayurvedic Categories
+            </div>
+            <div class="section-1-main-3" >
+                <button style=" background-color: rgb(0, 0, 0); color: aliceblue;" >
+                    AI Chatbot
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section-2">
+        
+        <div class="section-2-container">
+            <!-- <img src="https://compayur.com/wp-content/uploads/2022/06/Learn-compress.png" style="transform: translate(-110%, 20%); z-index: 98;" alt=""> -->
+            <img src="https://compayur.com/wp-content/uploads/2022/06/Shop-compress.png" style="transform: translate(-55%, 10%); z-index: 99;" alt="">
+            <img src="https://compayur.com/wp-content/uploads/2022/06/Learn-compress.png" style="z-index: 100;width: 600px;transform: translate(-15%, 0.1%);" alt="">
+            <img src="https://compayur.com/wp-content/uploads/2022/06/Shop-compress.png" style="transform: translate(22%, 10%);width: 600px; z-index: 99;" alt="">
+            <!-- <img src="https://compayur.com/wp-content/uploads/2022/06/Learn-compress.png" style="transform: translate(110%, 20%); z-index: 98;" alt=""> -->
+        </div>
+    </section>
+
+    
+
+    <!-- SECTION 4 -->
+    <section class="section-4">
+        <div class="section-4-left">
+            <div class="section-4-left-content section-4-left-1">
+                
+                <div class="section-4-left-heading">Personalized 
+                    Health Care</div>
+                <div class="section-4-left-desc">Knowing your prakriti guides personalized choices in diet, lifestyle, and healthcare due to varying susceptibilities to imbalances, enhancing overall well-being.</div>
+            </div>
+            <div class="section-4-left-content section-4-left-2">
+                <div class="section-4-left-heading">Disease Prevention</div>
+                <div class="section-4-left-desc">Ayurveda believes that imbalances in your prakriti can lead to diseases. By knowing your prakriti, you can take preventive measures and make lifestyle choices that are more aligned with your natural constitution, reducing the risk of health issues.</div>
+            </div>
+            <div class="section-4-left-content section-4-left-3">
+                <div class="section-4-left-heading">Customized Treatment.</div>
+                <div class="section-4-left-desc">In Ayurvedic medicine, treatments are often personalized based on an individual's prakriti because what works effectively for one person may not yield the same results for another, underscoring the importance of understanding your prakriti.</div>
+            </div>
+            <div class="section-4-left-content section-4-left-4">
+                <div class="section-4-left-heading">Emotional Well-being.</div>
+                <div class="section-4-left-desc">Ayurveda not only focuses on physical health but also considers mental and emotional well-being. Knowing your prakriti can provide insights into your natural tendencies and help you manage stress, emotions, and mental health more effectively. It can guide you in adopting practices that promote emotional balance and overall happiness.</div>
+                <button type="button" style="padding-left: 10px;margin-top: 30px; border-radius: 50px;background-color: black;" class="btn btn-outline-light btn-lg">Take Assesment</button>
+            </div>
+        </div>
+        <div class="section-4-right">
+            <div class="section-4-right-placeholder">
+                <img class="section-4-right-img" src="https://www.nihan.care/wp-content/uploads/2020/12/Nihan-Telehealth-791x1024.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="section-5"></section>
+
+    <!-- SECTION 3 -->
+    <section class="section-3">
+        <div class="section-3-header">
+            <div class="section-3-header-1">
+                Explore <br>
+                the Universe of Ayurvedic Knowledge
+            </div>
+            <div class="section-3-header-2">
+                
+            </div>
+        </div>
+        <div class="section-3-main">
+            <div class="section-3-main-1">
+                Unlock the wisdom of Ayurveda through ancient texts and manuscripts. These resources reveal holistic healing principles, rooted in understanding the balance of nature, body, and mind. From well-known classics like Charaka Samhita to hidden gems, Ayurvedic knowledge offers personalized, holistic approaches to modern healing. It goes beyond symptom treatment, focusing on root causes and individual constitutions, making it a valuable tool for today's healers.
+            </div>
+            <div class="section-3-main-2">
+                Explore 
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mail updates about our lastest discovery and <span>special blogs.</span></p>
+            </div>
+            <div class="col-lg-6 form">
+                <input type="text" name="" placeholder="Your Email address" id="">
+                <button class="normal">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- <footer>
+        <div>Made with ❤️ in India</div>
+    </footer> -->
+    <section id="footer" class="section-p1">
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <section class="contact">
+                <div class="text-md-start">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 mb-4">
+                            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                            <p><span>Contact Us</span></p>
+                            <ul>
+                                <li><span>Address:</span> Netaji Subhas University of Technology, Dwarka Sector-3, Delhi, 110078</li>
+                                <li><span>Phone:</span> 9100139664</li>
+                                <li><span>Hours:</span> 10:00-18:00, Mon-Sat.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h5 class="text-uppercase fw-bold mb-4"> About </h5>
+                            <p> <a href="about.html" class="text-reset">About Us</a> </p>
+                            <p> <a href="#!" class="text-reset">Blog<a>
+                            </p>
+                            <p> <a href="#!" class="text-reset">Privacy Policy</a> </p>
+                            <p> <a href="#!" class="text-reset">Terms & Conditions</a> </p>
+                            <p> <a href="contact.html" class="text-reset">Contact Us</a> </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h5 class="text-uppercase fw-bold mb-4"> Services </h5>
+                            <p> <a href="#!" class="text-reset">Appointment</a> </p>
+                            <p> <a href="cart.html" class="text-reset">Counsult</a> </p>
+                            <p> <a href="#!" class="text-reset">24/7 Support</a> </p>
+                            <p> <a href="#!" class="text-reset">Emergency</a> </p>
+                            <p> <a href="contact.html" class="text-reset">Help</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="index.html">Ayush.com</a>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/6191bb91-b53f-4650-9ace-f8a2ba87b29a/webchat/config.js" defer></script>
+</body>
+</html>
