@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web',sans-serif;
+}
+.home-img img{
+    width: 100vw;
+    height: 65vh;
+    
+}
+
+
+.intro{
+    padding: 5%;
+    margin: 2.5%;
+    border: 1px solid green;
+}
+
+.intro-heading{
+    margin-bottom: 4%;
+}
+
+.prak{
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.intro-content{
+    font-size: 1.2rem;
+}
+
+.main-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.center-image {
+    position: absolute;
+    
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #54e388;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.circle1 {
+    
+    top: 25%;
+    left: 25%;
+}
+
+.circle2 {
+    top: 25%;
+    right: 25%;
+}
+
+.circle3 {
+    bottom: -40%;
+    right: 45%;
+}
+
+.info {
+    
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Kaushan Script',cursive;
+    text-align: center;
+    padding: 5px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    background-color: #02a820;
+}
+
+.types-descp{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.type{
+    border: 1px solid green;
+    border-top: 3px solid green;
+    margin-right: 15px ;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: border-top 0.15s ease;
+    opacity: 0.7;
+    /* display: none; */
+}
+
+
+
+.dark{
+    
+    border-top : 5px solid green;
+    opacity: 1;
+    /* width: 48%; */
+    padding-top: 10px;
+    display: block;
+}
+
+.type h2{
+    text-align: center;
+    
+}
+
+.type-info{
+    display: none;
+    margin: 5%;
+}
+
+.para{
+    /* margin: 30%; */
+}
+
