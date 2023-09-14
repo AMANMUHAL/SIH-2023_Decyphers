@@ -361,8 +361,19 @@
         <script src="https://kit.fontawesome.com/eb6f606618.js" crossorigin="anonymous"></script>
         <script src="index.js"></script>
         <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-        <script src="https://mediafiles.botpress.cloud/5194a0d4-8d39-4a12-ade8-09697864d128/webchat/config.js"
-            defer></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "Prakriti Bot: Uncover Your Ayurvedic Essence with a Bot",
+      "botId": "5194a0d4-8d39-4a12-ade8-09697864d128",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "5194a0d4-8d39-4a12-ade8-09697864d128",
+      "lazySocket": true,
+      "frontendVersion": "v1",
+      "showPoweredBy": true
+  });
+</script>
 </body>
 
 </html>
