@@ -76,7 +76,6 @@ button.normal {
   background-color: #f4f4f4;
   box-shadow: 0 5px 15px #e3e3e3;
   z-index: 999;
-  position: sticky;
   top: 0;
   left: 0;
 }
