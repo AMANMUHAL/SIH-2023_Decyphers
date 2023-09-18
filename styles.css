@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Titillium+Web:wght@400;700;900&display=swap');
 
 
 * {
@@ -70,79 +70,43 @@ button.normal {
   transition: 0.2s ease;
 }
 
-/* Header */
-#header {
+
+/* SECTION 1 */
+.section-1 {
+  max-width: 1040px;
+  margin: auto;
+  margin-top: 60px;
+  /* margin-bottom: 200px; */
+}
+
+.section-1-header {
+  max-height: 66px;
   display: flex;
   justify-content: space-between;
-  padding: 16px 200px;
-  background-color: #f4f4f4;
-  box-shadow: 0 5px 15px #e3e3e3;
-  z-index: 999;
-  
-  top: 0;
-  left: 0;
 }
 
-#header img {
-  height: 50px;
-  width: 100px;
+.section-1-header-options a {
+  text-decoration: none;
+  color: green;
+  font-weight: 700;
+  font-size: 18px;
 }
-#navbar .cart{
-  position: relative;
+
+.section-1-header-logo img {
+  height: 100%;
 }
-#navbar {
+
+.section-1-header-options {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-#navbar li {
-  margin-top: 10px;
-  list-style: none;
-  padding: 0 20px;
-  position: relative;
-}
-
-#navbar li a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: green;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-#navbar li a.active {
-  color: green;
-}
-
-#navbar li a.active::after {
-  content: "";
-  width: 30%;
-  background-color: green;
-  height: 3px;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-}
-
-#navbar li a::after {
-  content: "";
-  width: 0;
-  background-color: green;
-  height: 3px;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-  transition: 0.3s;
-}
-
-#navbar li a:hover {
-  color: green;
-}
-
-#navbar li a:hover::after {
-  width: 30%;
+.section-1-header-options div {
+  opacity: .8;
+  font-size: 18px;
+  line-height: 36px;
+  white-space: nowrap;
+  margin: 0 20px 0 36px;
 }
 
 #mobile {
@@ -242,10 +206,17 @@ button.normal {
   text-align: center;
   font-size: 100px;
 /* font-family: 'Montserrat', sans-serif; */
-font-family: 'Titillium Web', sans-serif;
+  
   letter-spacing: -3px;
-  font-weight: 700;
+  font-weight: 900;
   padding: 7% 5%;
+}
+
+.home-heading h1{
+  font-size: 4.8rem;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 800;
+  color: black;
 }
 
 .section-1-main-3 {
