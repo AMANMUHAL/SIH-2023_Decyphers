@@ -109,15 +109,6 @@ button.normal {
   margin: 0 20px 0 36px;
 }
 
-#mobile {
-  display: none;
-  align-items: center;
-}
-
-#close {
-  display: none;
-}
-
 #newsletter {
   background-image: url(b14.png);
   background-repeat: no-repeat;
@@ -206,7 +197,7 @@ button.normal {
   text-align: center;
   font-size: 100px;
 /* font-family: 'Montserrat', sans-serif; */
-  
+  height: 90vh;
   letter-spacing: -3px;
   font-weight: 900;
   padding: 7% 5%;
@@ -281,7 +272,7 @@ button.normal {
     transform: translate(-50%, -50%);
 }
 
-.circle {
+.pcircle {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -319,12 +310,12 @@ button.normal {
     padding: 5px;
 }
 
-.circle:hover {
+.pcircle:hover {
     transform: scale(1.25);
     background-color: black;
 }
 
-.types-descp{
+/* .types-descp{
     display: flex;
     justify-content: space-around;
     padding: 0 5%;
@@ -338,18 +329,22 @@ button.normal {
     cursor: pointer;
     transition: border-top 0.15s ease;
     opacity: 0.7;
-    /* display: none; */
+
 }
 
 
 .dark{
-    /* background-color: rgb(31, 31, 31);
-    color: white; */
+    background-color:#2d662d;    
+    color: white; 
     border-top : 5px solid green;
     opacity: 1;
-    /* width: 48%; */
+    
     padding-top: 10px;
     display: block;
+}
+
+.dark h2{
+  color: #ECECEC;
 }
 
 
@@ -357,11 +352,164 @@ button.normal {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
 }
-
+*/
 .type-info{
     display: none;
     margin: 5%;
+} 
+
+
+
+/* Cards */
+.container {
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 330px;
+  height: 460px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, .2); */
+  transition: .5s ease-in-out;
+}
+
+.container:hover .card {
+  /* filter: blur(20px); */
+  transform: scale(.9);
+  opacity: 1;
+}
+
+.container .card:hover {
+  /* filter: blur(0); */
+  transform: scale(1);
+  opacity: 1;
+}
+
+.container .card:hover .circle {
+  clip-path: circle(600px);
+}
+
+.container .card:hover .content p {
+  color: #fff;
+}
+
+/* .container .card:hover .content a {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .2),
+              -1px -1px 2px rgba(255, 255, 255, .4);
+} */
+
+/* .container .card .content a:active {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .1),
+              inset 5px 5px 5px rgba(0, 0, 0, .04),
+              inset -5px -5px 5px rgba(255, 255, 255, .07),
+              inset -1px -1px 2px rgba(255, 255, 255, .4);
+} */
+
+.container .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(165px at center 0);
+  text-align: center;
+  transition: 1s ease-in-out;
+}
+
+.container .card h2 {
+  color: #fff;
+  font-size: 4.5em;
+  padding: 30px 0;
+}
+
+.container .card .content {
+  position: absolute;
+  
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .content p {
+  color: #666;
+  transition: .5s ease-in-out;
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: .8s ease-in-out;
+}
+
+.container .card:nth-child(1) .circle
+{
+  background: #519751;
+}
+
+.container .card:nth-child(1) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
+}
+
+.container .card:nth-child(2) .circle {
+  background: #519751;
+}
+
+.container .card:nth-child(2) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
 }
 
 
+.container .card:nth-child(3) .circle {
+  background: #519751;
+}
 
+.container .card:nth-child(3) .content a {
+  background: rgb(76, 143, 135);
+  color: white;
+}
+
+
+@keyframes colorChange {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: #b1b493;
+  }
+
+  80% {
+    color: #4f8a8b;
+  }
+
+  100% {
+    color: #fff;
+  }
+}
+
+/* =======================Responsive Breakpoint ========================== */
+
+@media only screen and (max-width: 992px) {
+  /* Add responsive styles for max-width 992px */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Add responsive styles for max-width 768px */
+}
