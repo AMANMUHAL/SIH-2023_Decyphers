@@ -36,6 +36,9 @@ body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
+  .books a{
+    color: black;
+  }
 /* ------------------------------------------------- for mobiles -------------------------------------------------------------------- */
 @media (max-width: 900px) {
   /* ---------------------------------- NAV BAR ---------------------------- */
@@ -319,9 +322,6 @@ body {
   }
   .books:nth-of-type(4) {
     background-color: #331d2c;
-  }
-  .books a{
-    color: black;
   }
   .book-img {
     width: 100%;
