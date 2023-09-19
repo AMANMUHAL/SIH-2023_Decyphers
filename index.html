@@ -19,6 +19,7 @@
     <!-- Include Lottie from CDN -->
     
 
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -49,7 +50,7 @@
                 Formulations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8+ Ayurvedic Categories
             </div>
             <div class="section-1-main-3">
-                <button style=" background-color: rgb(0, 0, 0); color: aliceblue;">
+                <button id="myButton" style=" background-color: rgb(0, 0, 0); color: aliceblue;">
                     AI Chatbot
                 </button>
             </div>
@@ -78,27 +79,23 @@
 
                 <div class="section-4-left-heading">Personalized
                     Health Care</div>
-                <div class="section-4-left-desc">Knowing your prakriti guides personalized choices in diet, lifestyle,
-                    and healthcare due to varying susceptibilities to imbalances, enhancing overall well-being.</div>
+                <div class="section-4-left-desc">Knowing your prakriti guides personalized choices in diet, lifestyle,and healthcare due to varying susceptibilities to imbalances, enhancing overall well-being.</div>
             </div>
             <div class="section-4-left-content section-4-left-2">
                 <div class="section-4-left-heading">Disease Prevention</div>
-                <div class="section-4-left-desc">Ayurveda believes that imbalances in your prakriti can lead to
-                    diseases. By knowing your prakriti, you can take preventive measures and make lifestyle choices that
+                <div class="section-4-left-desc">Ayurveda believes that imbalances in your prakriti can lead to diseases.
+                    By knowing your prakriti, you can take preventive measures and make lifestyle choices that
                     are more aligned with your natural constitution, reducing the risk of health issues.</div>
             </div>
             <div class="section-4-left-content section-4-left-3">
                 <div class="section-4-left-heading">Customized Treatment.</div>
-                <div class="section-4-left-desc">In Ayurvedic medicine, treatments are often personalized based on an
-                    individual's prakriti because what works effectively for one person may not yield the same results
+                <div class="section-4-left-desc">In Ayurvedic medicine, treatments are often personalized based on an individual's prakriti because what works effectively for one person may not yield the same results
                     for another, underscoring the importance of understanding your prakriti.</div>
             </div>
             <div class="section-4-left-content section-4-left-4">
                 <div class="section-4-left-heading">Emotional Well-being.</div>
-                <div class="section-4-left-desc">Ayurveda not only focuses on physical health but also considers mental
-                    and emotional well-being. Knowing your prakriti can provide insights into your natural tendencies
-                    and help you manage stress, emotions, and mental health more effectively. It can guide you in
-                    adopting practices that promote emotional balance and overall happiness.</div>
+                <div class="section-4-left-desc">Ayurveda not only focuses on physical health but also considers mental and emotional well-being. Knowing your prakriti can provide insights into your natural tendenciesand help you manage stress, emotions, and mental health more effectively. 
+                    It can guide you in adopting practices that promote emotional balance and overall happiness.</div>
                 <a href="prakriti.html"><button type="submit"
                         style="padding-left: 10px;margin-top: 30px; width: 100%; border-radius: 50px;background-color: black;"
                         class="btn btn-black">Take Assesment</button></a>
@@ -234,6 +231,27 @@
      
   });
 </script>                                
+<script>
+    document.getElementById("myButton").addEventListener("click", function () {
+        // Toggle the chatbot when the button is clicked
+        window.botpressWebChat.toggle();
+    });
+
+    // Initialize the chatbot on page load
+    window.botpressWebChat.init({
+        "composerPlaceholder": "Chat with Ayursarthi",
+        "botConversationDescription": "AyurSarthi: Guiding You Through Ancient Wisdom",
+        "botId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
+        "botName": "Ayursarthi",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
+        "lazySocket": true,
+        "frontendVersion": "v1",
+        "useSessionStorage": true,
+        "enableConversationDeletion": true
+    });
+</script>
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
 
