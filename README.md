@@ -6,6 +6,9 @@
 
 The Ayurveda Health Recommender is a versatile software solution that harnesses the wisdom of Ayurvedic classical books and repositories to suggest drugs and formulations for specific diseases or pharmacological properties. Additionally, it features two powerful bots—one for addressing the drug recommendation problem and another for conducting Prakriti assessments. This project is built using HTML, CSS, JavaScript, and Bootstrap, making it accessible and user-friendly.
 
+![image](https://github.com/AMANMUHAL/SIH-2023_Decyphers/assets/101124129/c2e5967d-166b-4d5f-9642-3f843b73270a)
+
+
 ## Features
 
 ### 1. Disease and Pharmacological Property Suggestion
