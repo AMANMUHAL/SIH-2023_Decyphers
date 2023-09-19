@@ -280,7 +280,7 @@ body {
 
 /* SECTION 5 */
 .section-5 {
-  background-image: url(./ayur.jpeg);
+  background-image: url(.images/ayur.jpeg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center center;
