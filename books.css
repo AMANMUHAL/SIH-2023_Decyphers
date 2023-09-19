@@ -169,7 +169,7 @@ body {
     margin-top: 1em;
     background: none;
     border: none;
-    color: #cbb5e2;
+    color: #000000;
     background-color: white;
     padding: 0.6em 1.5em;
     font-size: 1em;
@@ -177,25 +177,25 @@ body {
     font-weight: bolder;
   }
   .descp button:hover {
-    color: #a790f2;
+    color: #000000;
   }
   #b1 {
-    color: #fbadaf;
+    color: #000000;
   }
   #b1:hover {
-    color: #ff6e9f;
+    color: #000000;
   }
   #b2 {
-    color: #a4e0eb;
+    color: #000000;
   }
   #b2:hover {
-    color: #62cdec;
+    color: #000000;
   }
   #b3 {
-    color: #fdca95;
+    color: #000000;
   }
   #b3:hover {
-    color: #fb9124;
+    color: #000000;
   }
 }
 
@@ -364,7 +364,7 @@ body {
     margin-top: 1em;
     background: none;
     border: none;
-    color: #cbb5e2;
+    color: #000000;
     background-color: #FAF2D3;
     padding: 0.6em 1.5em;
     font-size: 1em;
@@ -372,10 +372,10 @@ body {
     font-weight: bolder;
   }
   .descp button:hover {
-    color: #a790f2;
+    color: #000000;
   }
   #b1 {
-    color: #fbadaf;
+    color: #000000;
   }
   #b1:hover {
     color: #0000;
