@@ -235,19 +235,23 @@
     document.getElementById("myButton").addEventListener("click", function () {
         // Toggle the chatbot when the button is clicked
         //
-           window.botpressWebChat.init({
-        "composerPlaceholder": "Chat with Ayursarthi",
-        "botConversationDescription": "AyurSarthi: Guiding You Through Ancient Wisdom",
-        "botId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
-        "botName": "Ayursarthi",
-        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-        "messagingUrl": "https://messaging.botpress.cloud",
-        "clientId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
-        "lazySocket": true,
-        "frontendVersion": "v1",
-        "useSessionStorage": true,
-        "enableConversationDeletion": true
-    });
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Ayursarthi",
+      "botConversationDescription": "AyurSarthi: Guiding You Through Ancient Wisdom",
+      "botId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
+      "botName":"Ayursarthi",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
+      "lazySocket": true,
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true
+     
+  });
+</script>    
     });
 
     // Initialize the chatbot on page load
