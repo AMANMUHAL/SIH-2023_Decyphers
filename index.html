@@ -234,11 +234,8 @@
 <script>
     document.getElementById("myButton").addEventListener("click", function () {
         // Toggle the chatbot when the button is clicked
-        window.botpressWebChat.toggle();
-    });
-
-    // Initialize the chatbot on page load
-    window.botpressWebChat.init({
+        //
+           window.botpressWebChat.init({
         "composerPlaceholder": "Chat with Ayursarthi",
         "botConversationDescription": "AyurSarthi: Guiding You Through Ancient Wisdom",
         "botId": "6191bb91-b53f-4650-9ace-f8a2ba87b29a",
@@ -251,6 +248,10 @@
         "useSessionStorage": true,
         "enableConversationDeletion": true
     });
+    });
+
+    // Initialize the chatbot on page load
+ 
 </script>
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
