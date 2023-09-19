@@ -20,7 +20,6 @@ h1 {
   color: #ffffff;
 }
 
-
 h2 {
   font-size: 50px;
   font-weight: 600;
@@ -85,7 +84,7 @@ button.normal {
   height: 50px;
   width: 100px;
 }
-#navbar .cart{
+#navbar .cart {
   position: relative;
 }
 #navbar {
@@ -235,11 +234,10 @@ button.normal {
   height: 5rem;
 }
 
-
 /* Blog.html */
 #blog-header {
   background-image: url(https://thehealthmaster.com/wp-content/uploads/2020/05/pharmacy-2066096_1280-scaled.jpg);
-/*   width: 100%;
+  /*   width: 100%;
   height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -250,31 +248,27 @@ button.normal {
   color: #ffffff;
   
   /* min-height: 500px; */
+  /* background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+  /* min-height: 500px; */
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
- */
-
-    width: 100%;
-        height: 80vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #ffffff;
-        
-        /* min-height: 500px; */
-        background-attachment: fixed;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 100px;
-
-  
+  margin-bottom: 100px;
 }
 
 #blog-header h2,
@@ -341,8 +335,8 @@ button.normal {
   font-size: 16px;
 }
 
-@media(max-width:1023px) {
-  #header{
+@media (max-width: 1023px) {
+  #header {
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -354,7 +348,7 @@ button.normal {
   }
 }
 
-@media(max-width:992px) {
+@media (max-width: 992px) {
   #newsletter .row .form {
     display: flex;
     align-items: center;
@@ -362,17 +356,15 @@ button.normal {
   }
 }
 
-
 /* blog.html */
-@media(max-width:850px) {
+@media (max-width: 850px) {
   #blog {
     padding: 100px 50px 0 50px;
   }
 }
 
-
 /* index.html */
-@media (max-width:821px) {
+@media (max-width: 821px) {
   #navbar {
     display: flex;
     flex-direction: column;
@@ -383,7 +375,7 @@ button.normal {
     right: -300px;
     height: 100vh;
     width: 300px;
-    background-color: rgb(227,228,227);
+    background-color: rgb(227, 228, 227);
     padding: 80px 0 0 10px;
     transition: 0.3s;
   }
@@ -422,7 +414,6 @@ button.normal {
     padding: 20px;
   }
 
-
   /*blog.html  */
   #blog .blog-box {
     flex-direction: column;
@@ -446,7 +437,7 @@ button.normal {
   /* Contact.html */
 }
 
-@media(max-width:578px) {
+@media (max-width: 578px) {
   h2 {
     font-size: 30px;
     line-height: 40px;
@@ -458,8 +449,7 @@ button.normal {
   }
 }
 
-@media(max-width:480px) {
-
+@media (max-width: 480px) {
   #header {
     padding: 10px 30px;
   }
