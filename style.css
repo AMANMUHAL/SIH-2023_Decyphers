@@ -280,7 +280,7 @@ body {
 
 /* SECTION 5 */
 .section-5 {
-  background-image: url(.images/ayur.jpeg);
+  background-image: url(images/ayur.jpeg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center center;
@@ -291,7 +291,7 @@ body {
 /* Newsletter */
 
 #newsletter {
-  background-image: url(img/banner/b14.png);
+  background-image: url(b14.png);
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
