@@ -1,4 +1,4 @@
-# Ayurveda Health Recommender
+# SIH 2023 ~Decyphers
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-green)
 
