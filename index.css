@@ -239,7 +239,7 @@ button.normal {
 /* Blog.html */
 #blog-header {
   background-image: url(https://thehealthmaster.com/wp-content/uploads/2020/05/pharmacy-2066096_1280-scaled.jpg);
-  width: 100%;
+/*   width: 100%;
   height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,6 +254,27 @@ button.normal {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+ */
+
+    width: 100%;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        
+        /* min-height: 500px; */
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 100px;
+
+  
 }
 
 #blog-header h2,
