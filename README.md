@@ -71,7 +71,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or inquiries, please contact [your-email@example.com](mailto:your-amanmuhal02@gmail.com).
+For any questions or inquiries, please contact [your-email@example.com](mailto:amanmuhal02@gmail.com).
 
 ## Acknowledgments
 
